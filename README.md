@@ -4,18 +4,17 @@
 
 This Project is designed to comprehensively integrate various aspects of DevOps practices. This project provides a practical, hands-on experience by combining application development, Dockerization, Kubernetes deployment, CI/CD automation, and infrastructure management using Terraform.
 
-The project is divided into the following six parts:
+The project is divided into the following parts:
 
 1. **Part 1: Application Development**
 2. **Part 2: Dockerization**
 3. **Part 3: Infrastructure as Code with Terraform**
 4. **Part 4: Kubernetes Deployment on EKS**
 5. **Part 5: CI/CD Pipeline Setup**
-6. **Part 6: Documentation and Presentation**
 
 
+<br>
 
----
 
 ## Part 1: Application Development
 
@@ -39,7 +38,7 @@ This project segment involves developing a library management web application us
 
 
 
----
+<br>
 
 
 ## Part 2: Dockerization
@@ -55,8 +54,8 @@ In this phase, the library management application was containerized using Docker
 This process ensures that the application is encapsulated in a portable container, which simplifies deployment across different systems and environments.
 
 
----
 
+<br>
 
 ## Part 3: Infrastructure as a Code with Terraform
 
@@ -86,7 +85,7 @@ This phase involved the use of Terraform to provision and manage the AWS infrast
   - Includes settings for region, CIDR blocks for networking, and cluster-specific configurations.
     
 
----
+<br>
 
 
 ## Part 4: Kubernetes Deployment on EKS
@@ -104,8 +103,8 @@ Deploy a Dockerized application to an AWS EKS cluster using Kubernetes configura
 - **Service YAML**: Exposes the application using a LoadBalancer, including port mappings and selectors.
 
 
----
 
+<br>
 
 ## Part 5: CI/CD Pipeline Setup
 
@@ -125,7 +124,7 @@ Jenkins was used to automate the deployment process of the application, ensuring
 - **Deploy Kubernetes Resources**: Deploys resources like namespace, PV, PVC, deployment, and service to the EKS cluster.
 
 
----
+<br>
 
 
 ## Bonus Task: Set Up Monitoring and Logging
